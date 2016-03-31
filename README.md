@@ -3,8 +3,6 @@ ioi-temp-controller
 
 # Overview
 
-![alt text](https://raw.githubusercontent.com/LivTel/ioi-temp-controller/master/img/ioi_panel2.jpg "In situ.")
-
 This package contains the electronic schematics and arduino code to drive a 
 10 microamp excitation current required by the DT-400 series temperature 
 sensor diodes inside IO:I's cryostat. This facility was originally provided 
