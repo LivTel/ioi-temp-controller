@@ -1179,9 +1179,9 @@ at 30/07/2012 11:22:31</description>
 <net name="N$5" class="0">
 <segment>
 <pinref part="R1" gate="A" pin="~CS"/>
-<wire x1="45.72" y1="93.98" x2="40.64" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="93.98" x2="40.64" y2="127" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="127" x2="162.56" y2="127" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="93.98" x2="35.56" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="93.98" x2="35.56" y2="127" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="127" x2="162.56" y2="127" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="127" x2="162.56" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="PCB1" gate="G$1" pin="~9"/>
 <wire x1="162.56" y1="73.66" x2="147.32" y2="73.66" width="0.1524" layer="91"/>
@@ -1196,15 +1196,30 @@ at 30/07/2012 11:22:31</description>
 </net>
 <net name="N$4" class="0">
 <segment>
-<wire x1="40.64" y1="50.8" x2="40.64" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="66.04" x2="86.36" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="50.8" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="66.04" x2="86.36" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="66.04" x2="86.36" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="124.46" x2="160.02" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="124.46" x2="160.02" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="PCB1" gate="G$1" pin="ETHCS"/>
 <wire x1="160.02" y1="76.2" x2="147.32" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="R2" gate="A" pin="~CS"/>
-<wire x1="40.64" y1="50.8" x2="45.72" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="50.8" x2="45.72" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="R2" gate="A" pin="SCK"/>
+<wire x1="45.72" y1="48.26" x2="40.64" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="48.26" x2="40.64" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="91.44" x2="40.64" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="116.84" x2="157.48" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="116.84" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="PCB1" gate="G$1" pin="SCK"/>
+<wire x1="157.48" y1="83.82" x2="147.32" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="R1" gate="A" pin="SCK"/>
+<wire x1="45.72" y1="91.44" x2="40.64" y2="91.44" width="0.1524" layer="91"/>
+<junction x="40.64" y="91.44"/>
 </segment>
 </net>
 </nets>
